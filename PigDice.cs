@@ -5,11 +5,19 @@ namespace PigDiceGame
     {
         public int Play() {
             var score = 0;
-            var roll = roll();
-
+            var roll = Roll();
+            while (roll != 1)
+            {
+                score += roll;
+                roll = Roll();
+            }
+            return score;
         }
-        public PigDice()
+
+
+        public int Roll()
         {
+            return (int)(Math.random() * 983421) % 6 + 1;
         }
     }
 }
