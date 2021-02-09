@@ -14,7 +14,6 @@ namespace PigDiceGame
             return score;
         }
 
-
         public int Roll()
         {
             return (int)(Math.random() * 983421) % 6 + 1;
