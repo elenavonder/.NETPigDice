@@ -9,7 +9,9 @@ namespace PigDiceGame
             var pigdice = new PigDice();
             var hiScore = 400;
             var games = 1;
+            var score = pigdice.Play();
 
+            while(score)
 
         }
     }
