@@ -17,6 +17,8 @@ namespace PigDiceGame
                 games++;
             }
 
+            var message = String.Format("Game high score is %d after %d games.", score, games);
+            System.out.println(message);
 
         }
     }
