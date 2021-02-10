@@ -6,7 +6,9 @@ namespace PigDiceGame
     {
         static void Main(string[] args)
         {
-            
+            var pigdice = new PigDice();
+            var hiScore = 400;
+
         }
     }
 }
