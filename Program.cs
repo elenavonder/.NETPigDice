@@ -8,6 +8,8 @@ namespace PigDiceGame
         {
             var pigdice = new PigDice();
             var hiScore = 400;
+            var games = 1;
+
 
         }
     }
