@@ -11,7 +11,12 @@ namespace PigDiceGame
             var games = 1;
             var score = pigdice.Play();
 
-            while(score)
+            while(score <= hiScore)
+            {
+                score = pigdice.Play();
+                games++;
+            }
+
 
         }
     }
