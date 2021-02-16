@@ -21,5 +21,10 @@ namespace PigDiceGame
             System.out.println(message);
 
         }
+
+        private static void println(string message)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
